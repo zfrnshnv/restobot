@@ -1,0 +1,26 @@
+INSERT INTO users (id, first_name, last_name, phone_number)
+VALUES
+(1, 'Zafar', 'Nishonov', '+998993404204'),
+(2, 'John', 'Doe', '+998994024043');
+
+INSERT INTO categorys (id, name)
+VALUES
+(1, 'Salatlar'),
+(2, 'Fastfood'),
+(3, 'Issiq taomlar');
+INSERT INTO products (
+    id,
+    category_id,
+    name,
+    photo,
+    description,
+    price,
+    quantity
+)
+VALUES
+(1, 1, 'Sezar', 'AgACAgIAAxkBAAEC2t1pYJZJRFWtPVLtk9tbwL3Cz_OeXwACxgtrGwGHCEu7jFeWShvmHwEAAwIAA3gAAzgE', 'Sezar salati bayram uchun eng togri tanlov!', 5000, 100),
+(2, 1, 'Olivye', 'AgACAgIAAxkBAAEC2uFpYJa3XCcCajKFb_CKyzdm8YzNYQACxQtrGwGHCEv39yG6Qz5LqQEAAwIAA3gAAzgE', 'Olivye har doimgidek shirin va mazali', 5000, 100),
+(3, 2, 'Burger', 'AgACAgIAAxkBAAEC2uVpYJbvd1akV72b_vyxer6E-_0t8QACxAtrGwGHCEuwA6lAQ6xCMgEAAwIAA3kAAzgE', 'Shoshib turganingizda Burger ayni muddao', 5000, 100),
+(4, 2, 'HotDog', 'AgACAgIAAxkBAAEC2ulpYJc9AR8NOFZrNBNw3MoAASYf8RMAAsMLaxsBhwhLwEcLBCI-9egBAAMCAAN5AAM4BA', 'Yumshoq bulochkali hot dog juda tez hazm boladi', 5000, 100),
+(5, 3, 'Osh', 'AgACAgIAAxkBAAEC2u1pYJfMnyL2rukNp268yAw46-yuowACwgtrGwGHCEsgxwABX8TNwP8BAAMCAAN4AAM4BA', 'Milliy taomlar qiroli osh baquvvat va toyimli', 5000, 100),
+(6, 3, 'Shorva', 'AgACAgIAAxkBAAEC2vFpYJftJe1T7AtGAvMTtNc5oW_-fwACxwtrGwGHCEt-Ft6UhDEZAwEAAwIAA3kAAzgE', 'Sovuq havoda immunitetni oshirish uchun eng togri tanlov', 5000, 100);
